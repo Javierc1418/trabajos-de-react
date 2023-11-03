@@ -1,3 +1,4 @@
+// eslint-disable-next-line react/prop-types
 const ItemListContainer = ({greeting}) => {
     const greetingStyle = {
         fontSize: '6rem',
@@ -5,8 +6,6 @@ const ItemListContainer = ({greeting}) => {
         color: 'black',
         backgroundColor: 'green',
     
-
-
     }
     return (
         <div style={greetingStyle}>
