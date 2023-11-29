@@ -1,17 +1,9 @@
-// eslint-disable-next-line react/prop-types
-const ItemListContainer = ({greeting}) => {
-    const greetingStyle = {
-        fontSize: '6rem',
-        textAlign: 'center',
-        color: 'black',
-        backgroundColor: 'green',
-    
-    }
-    return (
-        <div style={greetingStyle}>
-            {greeting}
-        </div>
-    )
-}
+import React from "react";
 
+ const ItemListContainer = () => {
+    return(
+        <div></div>
+    )
+
+}
 export default ItemListContainer;
