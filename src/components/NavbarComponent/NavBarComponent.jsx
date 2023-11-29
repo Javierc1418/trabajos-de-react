@@ -15,7 +15,7 @@ const NavBarComponent = () => {
             <Nav.Link href="#home">Casa</Nav.Link>
             <Nav.Link href="#link">Nosotros</Nav.Link>
             <NavDropdown title="Categoria" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Impresora</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.1/">Impresora</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">
                Insumos
               </NavDropdown.Item>
