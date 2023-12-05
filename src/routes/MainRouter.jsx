@@ -1,3 +1,4 @@
+//La expresion BrowserRouter as Router signfica que renombramos BrowserRouter como Router
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "../pages/Home";
 import NavBarComponent from "../components/NavBarComponent/NavBarComponent";
